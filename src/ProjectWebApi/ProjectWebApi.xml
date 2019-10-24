@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjectWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:ProjectWebApi.Controllers.AuthController">
+            <summary>
+            Auth
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.AuthController.#ctor(ProjectWebApi.App.Services.AuthService)">
+            <summary>
+            Auth
+            </summary>
+            <param name="authService"></param>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.AuthController.Login">
+            <summary>
+            Windows auth, returns JWT
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.AuthController.GetUsersFromRoleSpecialist">
+            <summary>
+            Returns users from group "Specialist"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ProjectWebApi.Controllers.DictionaryController">
+            <summary>
+            Dictionary
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.DictionaryController.#ctor(ProjectWebApi.App.Services.DictionaryService)">
+            <summary>
+            Dictionary
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.DictionaryController.GetModels">
+            <summary>
+            Returns test models
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ProjectWebApi.Controllers.ProjectController">
+            <summary>
+            Base project controller
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Controllers.ProjectController.UserId">
+            <summary>
+            Current user id
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.ProjectController.SetOrThrowException``1(System.Func{``0})">
+            <summary>
+            Set value or throws <see cref="T:System.ArgumentNullException"/>
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Controllers.A_TestController">
+            <summary>
+            For testing
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.A_TestController.#ctor(ProjectWebApi.App.Services.TestService)">
+            <summary>
+            for testing
+            </summary>
+            <param name="testService"></param>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.A_TestController.Test(ProjectWebApi.Controllers.MyClass)">
+            <summary>
+            Go
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Controllers.A_TestController.TestJwt">
+            <summary>
+            Check Jwt auth
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Auth.JwtAuthenticationBuilder">
+            <summary>
+            Jwt authentication
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Auth.JwtAuthenticationBuilder.AddJwtProjectAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds Jwt authentication
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Auth.PolicyAuthorizationBuilder">
+            <summary>
+            Policies
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Auth.PolicyAuthorizationBuilder.AddProjectAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds policies
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:ProjectWebApi.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.ProjectWebModule">
+            <summary>
+            Web module
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.ProjectWebModule.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+             Web module
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.ProjectWebModule.PreInitialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.ProjectWebModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Antiforgery.IAntiforgery)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.ProjectSwagger">
+            <summary>
+            Swagger for project
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.ProjectSwagger.AddProjectSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds project swagger
+            </summary>
+        </member>
+    </members>
+</doc>

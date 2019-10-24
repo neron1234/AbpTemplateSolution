@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjectWebApi.Core.Dto</name>
+    </assembly>
+    <members>
+        <member name="T:ProjectWebApi.Core.Dto.Controllers.Auth.AuthPolicy">
+            <summary>
+            User policies
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Controllers.Auth.AuthPolicy.Name">
+            <summary>
+            Policy name
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Core.Dto.Controllers.Auth.AuthPolicy.#ctor">
+            <summary>
+            User policies
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Core.Dto.Controllers.Auth.AuthPolicy.#ctor(System.String)">
+            <summary>
+            User policies
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Core.Dto.Controllers.Auth.AuthRoleOut">
+            <summary>
+            User's role
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Controllers.Auth.AuthRoleOut.Name">
+            <summary>
+            Role name
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Core.Dto.Controllers.Auth.AuthRoleOut.#ctor">
+            <summary>
+            User's role
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Core.Dto.Controllers.Auth.AuthRoleOut.#ctor(System.String)">
+            <summary>
+            User's role
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut">
+            <summary>
+            Authorized user
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut.Token">
+            <summary>
+            Jwt
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut.Name">
+            <summary>
+            User name
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut.Id">
+            <summary>
+            User id
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut.Roles">
+            <summary>
+            Roles
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut.Policies">
+            <summary>
+            Policies
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut.#ctor">
+            <summary>
+            Authorized user
+            </summary>
+        </member>
+        <member name="M:ProjectWebApi.Core.Dto.Controllers.Auth.AuthUserOut.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            Authorized user
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Core.Dto.Entities.Auth.UserDto">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Entities.Auth.UserDto.Name">
+            <summary>
+            User name
+            </summary>
+        </member>
+        <member name="T:ProjectWebApi.Core.Dto.Entities.TestModelDto">
+            <summary>
+            Some entity
+            </summary>
+        </member>
+        <member name="P:ProjectWebApi.Core.Dto.Entities.TestModelDto.Name">
+            <summary>
+            Test name
+            </summary>
+        </member>
+    </members>
+</doc>

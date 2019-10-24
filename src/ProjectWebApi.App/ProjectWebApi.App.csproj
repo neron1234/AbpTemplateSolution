@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AutoMapper" Version="5.0.0" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="4.6.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectWebApi.Core.Domain\ProjectWebApi.Core.Domain.csproj" />
+    <ProjectReference Include="..\ProjectWebApi.Core.Dto\ProjectWebApi.Core.Dto.csproj" />
+    <ProjectReference Include="..\ProjectWebApi.Core.EF\ProjectWebApi.Core.EF.csproj" />
+    <ProjectReference Include="..\ProjectWebApi.Core.Services.Email\ProjectWebApi.Core.Services.Email.csproj" />
+    <ProjectReference Include="..\ProjectWebApi.Core.Services\ProjectWebApi.Core.Services.csproj" />
+    <ProjectReference Include="..\ProjectWebApi.Core\ProjectWebApi.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.identitymodel.tokens\5.3.0\lib\netstandard2.0\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\system.identitymodel.tokens.jwt\5.3.0\lib\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
